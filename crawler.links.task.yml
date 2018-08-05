@@ -1,0 +1,11 @@
+crawler.settings:
+  title: 'Configuration'
+  weight: 0
+  route_name: crawler.settings
+  base_route: crawler.settings
+
+slack.crawler_parse:
+  title: 'Parse pages'
+  weight: 1
+  route_name: crawler.crawler_parse
+  base_route: crawler.settings

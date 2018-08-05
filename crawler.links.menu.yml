@@ -1,0 +1,17 @@
+crawler.admin_home:
+  title: Crawler
+  description: 'Configure Crawler module'
+  route_name: crawler.admin_home
+  parent: system.admin_config_services
+
+crawler.settings:
+  title: Crawler Settings
+  description: 'Configure the settings of Crawler module.'
+  route_name: crawler.settings
+  parent: crawler.admin_home
+  
+crawler.crawler_parse:
+  title: Crawler start parse page
+  description: 'Crawler test parse form'
+  route_name: crawler.crawler_parse
+  parent: crawler.admin_home

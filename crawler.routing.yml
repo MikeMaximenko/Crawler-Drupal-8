@@ -1,0 +1,24 @@
+crawler.admin_home:
+  path: '/admin/config/services/crawlerdev'
+  defaults:
+    _title: 'Crawler Dev'
+    _description: 'Crawler for parse pages.'
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+  requirements:
+    _permission: 'administer site configuration'
+
+crawler.settings:
+  path: '/admin/config/services/crawlerdev/settings'
+  defaults:
+    _form: '\Drupal\crawler\Form\CrawlerSettingsForm'
+    _title: 'Crawler settings'
+  requirements:
+    _permission: 'administer site configuration'
+
+crawler.crawler_parse:
+  path: '/admin/config/services/crawlerdev/parse_pages'
+  defaults:
+    _title: 'Crawler parse pages'
+    _form: '\Drupal\crawler\Form\CrawlerForm'
+  requirements:
+    _permission: 'administer site configuration'

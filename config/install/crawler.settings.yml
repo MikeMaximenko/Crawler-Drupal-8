@@ -1,0 +1,4 @@
+depthSearch: 2
+parsingUrls: 'https://www.benech-neurochirurgia.it/'
+parsePageLimit: 100
+category: test
